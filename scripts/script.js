@@ -1,14 +1,14 @@
 const especiesDeTigres = [
-    'Tigre de Bengala (Panthera tigris tigris)',
-    'Tigre da Indochina (Panthera tigris corbetti)',
-    'Tigre Malaio (Panthera tigris jacksoni)',
-    'Tigre de Amur (Panthera tigris altaica)',
-    'Tigre de Sumatra (Panthera tigris sumatrae)',
-    'Tigre do Sul da China (Panthera tigris amoyensis)',
-    'Tigre de Malayan (Panthera tigris jacksoni)',
-    'Tigre de Indonésia (Panthera tigris sondaica)',
-    'Tigre do Cáspio (Panthera tigris virgata)',
-    'Tigre da Coreia (Panthera tigris altaica)'
+    'Tigre de Bengala',
+    'Tigre da Indochina',
+    'Tigre Malaio',
+    'Tigre de Amur',
+    'Tigre de Sumatra',
+    'Tigre do Sul da China',
+    'Tigre de Malayan',
+    'Tigre de Indonésia',
+    'Tigre do Cáspio',
+    'Tigre da Coreia'
   ];
 
 
@@ -20,6 +20,8 @@ const btnFoto4 = document.querySelector("#btnFoto4")
 const card1 = document.querySelector("#card1")
 const textoCard1 = document.querySelector("#texto-card1")
 
+const pictureLarge = document.querySelector(".picture-large")
+
 
 
 const listaTigres = () => {
@@ -28,6 +30,7 @@ const listaTigres = () => {
         textoCard1.innerHTML += `<p>${tigre}</p>`
 
     }
+    pictureLarge.innerHTML = `<img src="../images/tigre_de_bengala.jpg">`
 }
 
 btnFoto1.addEventListener("click", listaTigres)
