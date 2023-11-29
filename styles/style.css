@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-cabecalho {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #113025;
+    color: #ffffff;
+    text-align: center;
+}
+
+.container-cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    width: 15rem;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 6px #000000;
+}
+
+.container-foto {
+    border-radius: 60px;
+    width: 7rem;
+    height: 7rem;
+    margin: 15px;
+    text-align: center;
+    text-align: center;
+}
+
+.foto {
+    width: 7rem;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px black;
+}
+
+.foto:active {
+    box-shadow: 1px 1px 3px #363636;
+}
